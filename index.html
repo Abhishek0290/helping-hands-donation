@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Helping Hands - Support Us</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://images.unsplash.com/photo-1530026186672-4ec2f4d5f91f?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.9);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: #fff;
+      max-width: 500px;
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      text-align: center;
+      padding: 40px 30px;
+    }
+
+    .logo {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      margin: 10px 0;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #27ae60;
+      color: white;
+      padding: 14px 28px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      margin-top: 20px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #219150;
+    }
+
+    .qr {
+      width: 200px;
+      margin: 20px auto;
+      display: block;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+      background: #fff;
+    }
+
+    .social-buttons {
+      margin-top: 30px;
+    }
+
+    .social-buttons a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 16px;
+      color: #fff;
+      background: #25D366;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .social-buttons a.facebook {
+      background: #3b5998;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    @media screen and (max-width: 600px) {
+      .card {
+        padding: 30px 20px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="overlay">
+  <div class="card">
+    <!-- Logo -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Helping_Hands_logo.svg/512px-Helping_Hands_logo.svg.png" alt="Helping Hands Logo" class="logo">
+
+    <h1>Support Helping Hands</h1>
+    <p>Your small help can make a big difference.</p>
+
+    <p>Scan the QR below using any UPI app (GPay, PhonePe, Paytm)</p>
+    <img class="qr" src="helping_hands_upi_qr.png" alt="Scan this UPI QR">
+    <p>Or tap the button below on your phone to donate directly:</p>
+    <a href="upi://pay?pa=abhishekdwi455@oksbi&pn=Helping%20Hands" class="btn">Donate via UPI</a>
+
+    <div class="social-buttons">
+      <a href="https://wa.me/?text=Support%20Helping%20Hands%20by%20donating%20here:%20https://abhishek0290.github.io/helping-hands-donation/" target="_blank">Share on WhatsApp</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://abhishek0290.github.io/helping-hands-donation/" class="facebook" target="_blank">Share on Facebook</a>
+    </div>
+
+    <div class="footer">
+      100% secure payment · Thank you for supporting our cause 🙏
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
