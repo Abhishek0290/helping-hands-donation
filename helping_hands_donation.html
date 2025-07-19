@@ -12,11 +12,9 @@
       background-color: #f8f9fa;
       color: #333;
     }
-    .logo {
-      width: 260px;
-      height: auto;
-      display: block;
-      margin: 0 auto 20px auto;
+    .qr {
+      width: 200px;
+      margin: 0 auto 20px;
     }
     .title {
       font-size: 28px;
@@ -27,10 +25,6 @@
       font-size: 18px;
       margin-bottom: 30px;
       color: #555;
-    }
-    .qr {
-      width: 200px;
-      margin: 0 auto 20px;
     }
     .upi {
       font-size: 16px;
@@ -43,18 +37,53 @@
       color: #777;
       margin-top: 20px;
     }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #28a745;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn.whatsapp {
+      background-color: #25D366;
+    }
+    .btn.facebook {
+      background-color: #3b5998;
+    }
+    .btn:hover {
+      opacity: 0.9;
+    }
   </style>
 </head>
 <body>
 
-  <img src="new.logo.png" alt="Helping Hands Logo" class="logo" />
+  <img src="new.logo.png" alt="Helping Hands - Charity Logo" style="width: 260px; height: auto; display: block; margin: 0 auto 20px auto;" />
 
   <div class="title">Helping Hands</div>
   <div class="tagline">Support with food, education & emergency aid</div>
 
-  <img src="new.qr.png" alt="Donate QR Code" class="qr" />
+  <img src="new.qr.png" alt="Scan to Donate QR Code" class="qr" />
 
   <div class="upi">UPI ID: <strong>9984648762@ibl</strong></div>
+
+  <a class="btn" href="upi://pay?pa=9984648762@ibl&pn=HelpingHands&cu=INR" target="_blank">
+    Pay via UPI
+  </a>
+
+  <div>
+    <a class="btn whatsapp" href="https://api.whatsapp.com/send?text=Support%20Helping%20Hands%20by%20donating%20via%20this%20page.%20Every%20rupee%20counts!%20https://yourdomain.com/donationpage" target="_blank">
+      Share on WhatsApp
+    </a>
+
+    <a class="btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://yourdomain.com/donationpage" target="_blank">
+      Share on Facebook
+    </a>
+  </div>
 
   <div class="note">Scan the QR to donate directly. Every rupee helps.</div>
 
