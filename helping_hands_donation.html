@@ -12,6 +12,12 @@
       background-color: #f8f9fa;
       color: #333;
     }
+    .logo {
+      width: 320px;
+      height: auto;
+      display: block;
+      margin: 0 auto 30px auto;
+    }
     .qr {
       width: 200px;
       margin: 0 auto 20px;
@@ -62,30 +68,18 @@
 </head>
 <body>
 
-  <img src="new.logo.png" alt="Helping Hands - Charity Logo" style="width: 260px; height: auto; display: block; margin: 0 auto 20px auto;" />
+  <!-- Logo -->
+  <img src="new.logo.png" alt="Helping Hands - Charity Logo" class="logo" />
 
+  <!-- Heading -->
   <div class="title">Helping Hands</div>
   <div class="tagline">Support with food, education & emergency aid</div>
 
+  <!-- QR Code -->
   <img src="new.qr.png" alt="Scan to Donate QR Code" class="qr" />
 
+  <!-- UPI ID Display -->
   <div class="upi">UPI ID: <strong>9984648762@ibl</strong></div>
 
-  <a class="btn" href="upi://pay?pa=9984648762@ibl&pn=HelpingHands&cu=INR" target="_blank">
-    Pay via UPI
-  </a>
-
-  <div>
-    <a class="btn whatsapp" href="https://api.whatsapp.com/send?text=Support%20Helping%20Hands%20by%20donating%20via%20this%20page.%20Every%20rupee%20counts!%20https://yourdomain.com/donationpage" target="_blank">
-      Share on WhatsApp
-    </a>
-
-    <a class="btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://yourdomain.com/donationpage" target="_blank">
-      Share on Facebook
-    </a>
-  </div>
-
-  <div class="note">Scan the QR to donate directly. Every rupee helps.</div>
-
-</body>
-</html>
+  <!-- Pay via UPI Button -->
+  <a class="btn" href="upi://pa
