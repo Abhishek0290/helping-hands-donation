@@ -31,7 +31,7 @@ https://abhishek0290.github.io/helping-hands-donation/
 
 ### Thank You Page
 
-![Thank You Page](assets/thankyou.jpg)
+![Thank You Page](assets/thankyoupage.jpg)
 
 ---
 
